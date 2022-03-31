@@ -1,0 +1,65 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-weight: strong
+}
+
+
+/** HEADER **/
+header-nav {
+
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 80px; 
+}
+.navbar-header /*button.navbar-toggle*/ {
+  clear: both;
+  margin-top: 10px;
+}
+.page-title {
+  background-color: #f6b319;
+}
+/* END HEADER */
+
+
+/** MAIN-CONTENT CONTAINER **/
+.row {
+  background-color: #f6b319;
+}
+/** END main-content container **/
+
+
+/********** Large devices only **********/
+
+/*@media (min-width: 1200px) {
+
+  div  {
+    color: green;
+  }
+}*/
+
+/********** Small devices  **********/
+/*@media (min-width: 768px) and (max-width: 1199px) {
+
+  div  {
+    color: purple;
+  }
+}*/
+
+/********** Extra Small only **********/
+/*@media (max-width: 767px) {
+  div  {
+    color: yellow;
+  }
+}*/
