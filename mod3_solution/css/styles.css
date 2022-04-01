@@ -52,9 +52,18 @@ div > h2 {
 
 .hr-style {
   border: black solid 1px;
-  border-width: 90%;
-  padding: 1px;
-  margin: 1px;
+  border-width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.change-background {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.padding-zero {
+  padding: 0px;
 }
 
 /** END main-content container **/
