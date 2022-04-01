@@ -10,12 +10,23 @@ h1, h2, h3 {
   font-weight: strong
 }
 
+div > h2 {
+  padding-bottom: 25px;
+}
+
+#button-back {
+  background-color: #fDbA20;
+}
+
+#button-back:hover {
+  background-color: palegoldenrod;
+}
+
 
 /** HEADER **/
-header-nav {
-
+#header-nav {
   border-radius: 0;
-  border: 0;
+  border: black solid 2px;
 }
 
 .navbar-brand {
@@ -25,10 +36,11 @@ header-nav {
 }
 .navbar-header /*button.navbar-toggle*/ {
   clear: both;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .page-title {
   background-color: #f6b319;
+  margin-top: 0px;
 }
 /* END HEADER */
 
@@ -37,6 +49,14 @@ header-nav {
 .row {
   background-color: #f6b319;
 }
+
+.hr-style {
+  border: black solid 1px;
+  border-width: 90%;
+  padding: 1px;
+  margin: 1px;
+}
+
 /** END main-content container **/
 
 
